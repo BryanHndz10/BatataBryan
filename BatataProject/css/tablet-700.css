@@ -1,0 +1,43 @@
+/*Ajustes para la medida mínima de 700px: */
+
+.header--content h1{
+    font-size: 2.8rem;
+}
+
+.header--content p{
+    font-size: 1.8rem;
+}
+
+.main__exchange--container{
+    padding-bottom: 75px;
+}
+
+.exchange__table{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comissions{
+    margin: 0px auto;
+}
+
+.main__plans--slide{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.main__plans--slide::-webkit-scrollbar{
+    display: none;
+}
+
+.footer__contact-us ul{
+    display: flex;
+}
+
+.footer__contact-us ul>li{
+    margin: 0px 30px;
+}

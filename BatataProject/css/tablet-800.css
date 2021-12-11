@@ -1,0 +1,70 @@
+header{
+    position: relative;
+    height: 70vh;
+}
+
+.header--logo{
+    position: absolute;
+    top: 20%;
+    height: 55px;
+    width: 250px;
+}
+
+.header--content{
+    max-width: none;
+}
+
+.header--content h1{
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+
+.header--content p{
+    font-size: 2rem;
+}
+
+.header--content a{
+    top: calc(100% - 35px);
+    right: calc(50% - 140px);
+    height: 70px;
+    width: 280px;
+    padding: 25px;
+    font-size: 1.6rem;
+}
+
+.main__benefits--cards-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.benefits__cards-container--card{
+    width: 45%;
+    max-width: 600px;
+}
+
+.last {
+    margin-bottom: 16px;
+}
+
+.footer__contact-us ul>li>span{
+    display: inline-block;
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    vertical-align: text-bottom;
+}
+
+.linkedin--icon{
+    background: url(../assets/icons/linkedin--icon.svg) center/cover no-repeat;
+}
+
+.crunch--icon{
+    background: url(../assets/icons/crunchbase--icon.svg) center/cover no-repeat;
+}
+
+.hacker--icon{
+    background: url(../assets/icons/hackernews_icon.svg) center/cover no-repeat;
+}
